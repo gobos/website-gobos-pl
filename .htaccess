@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^ip\.gobos\.pl$ [NC]
+RewriteRule ^$ http://gobos.pl/ip.php [L,R=301]
